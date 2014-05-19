@@ -7,6 +7,7 @@ open ExtensionProvider
 let test () =
     let i = 23
     i.FromString("32") |> ignore
+    System.Int32.FromString(23, "32") |> ignore
     i.AnotherFromString("32") |> ignore
     ExtensionProvider.Int32Extension.FromString(23, "32")
     
