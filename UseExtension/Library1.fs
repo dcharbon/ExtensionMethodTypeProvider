@@ -1,6 +1,8 @@
 ﻿module UseExtension
 
 open ExtensionMethodTypeProvider
+open ExtensionProvider
+
 
 let test () =
     let i = 23
